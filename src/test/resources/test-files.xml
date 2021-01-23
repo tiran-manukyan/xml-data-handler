@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node is-file="false">
+    <name>test_node</name>
+    <children>
+        <child is-file="true">
+            <name>first_file.xml</name>
+        </child>
+        <child is-file="true">
+            <name>second_file.xml</name>
+        </child>
+        <child is-file="false">
+            <name>first_dir</name>
+            <children>
+                <child is-file="true">
+                    <name>config.txt</name>
+                </child>
+                <child is-file="true">
+                    <name>XmlParserTest.java</name>
+                </child>
+            </children>
+        </child>
+    </children>
+</node>
